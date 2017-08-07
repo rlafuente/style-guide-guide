@@ -135,6 +135,18 @@
     <li class="c-primary-nav__item">
 
       {% for my_page in site.pages %}
+      {% if my_page.url == "/writing.html" %}
+      <a href="{{ "/writing.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/writing.html' %}is-active is-current{% endif %}">
+        <span class="c-primary-nav__text">Writing and tone</span>
+      </a>
+      {% endif %}
+      {% endfor %}
+
+    </li><!-- end c-nav__list__item -->
+
+    <li class="c-primary-nav__item">
+
+      {% for my_page in site.pages %}
       {% if my_page.url == "/colophon.html" %}
       <a href="{{ "/colophon.html" | prepend: site.baseurl }}" class="c-primary-nav__link {% if page.url == '/colophon.html' %}is-active is-current{% endif %}">
         <span class="c-primary-nav__text">Colophon</span>
