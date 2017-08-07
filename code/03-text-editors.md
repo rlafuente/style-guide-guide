@@ -3,9 +3,11 @@ layout: page
 title: Text editors
 group: code
 permalink: /code/text-editors.html
-description: The ++ grid and its visual possibilities
+description: Tips and starter kits for our favorite text editors
 ---
 
-Here is where you take the time to explain the principles that are encapsulated in the entire design system. These principles will manifest themselves in different ways, from high-level guidelines to low-level components.
+## Sublime Text
 
-For inspiration, be sure to check out [Design Principles FTW](http://www.designprinciplesftw.com/) and [what goes into creating good design principles](https://articles.uie.com/creating-design-principles/).
+## vim
+
+## Gedit
